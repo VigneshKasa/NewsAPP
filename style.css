@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hachi+Maru+Pop&family=Lobster&family=Lora:ital@1&family=Poppins:wght@300;400&display=swap');
+*{
+    top:0;
+    margin:0;
+    padding: 0;
+    font-family:"poppins";
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    background-color:#28262b;
+    height:100px;
+    position:fixed;
+    width:100%;
+}
+.nav-item{
+    color:#a9a29c;
+    cursor: pointer;
+}
+.navbar-nav{
+    width: 70%;
+    display: flex;
+    justify-content:space-evenly
+}
+.navbar-nav u{
+    color:#f9b17a;
+    
+}
+.logo{
+    padding-left:20px;
+    cursor: pointer;
+}
+.search{
+    margin-left:10px;
+    display: flex;
+    
+}
+#input{
+    border-radius:5px;
+}
+#searchbtn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height:33px;
+    width:30px;
+    background-color: white;
+    border-radius:50%;
+    cursor: pointer;
+    margin-left:5px;
+}
+.head{
+    padding-top:110px;
+    text-align: center;
+    margin-top:20px;
+    font-size: 30px;
+    color:#f9b17a
+}
+.mainbox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+}
+.box{
+    width: 450px;
+    height: 600px;
+    background-color:#d5ccc7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    margin-bottom:20px;
+     border-radius:5px;
+}
+.box:hover{
+    transition:400ms;
+    box-shadow: #000000cf 0px 8px 24px;
+
+}
+.title{
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:25px;
+    color: black;
+    
+    
+}
+#publishdate{
+    padding-bottom:10px;
+    font-size:12px;
+    font-family:"poppins";
+    color:rgb(53, 53, 53);
+    font-weight: 600;
+}
+.content{
+    padding:10px;
+    text-align:justify;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    color: black;
+    overflow: hidden;
+}
+
+
+/*previous
+nav color 2d3250
+body color 171f32
+content box color 424769
+nav items color f9b17a
+
+*/
