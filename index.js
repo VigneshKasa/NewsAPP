@@ -1,7 +1,7 @@
 
     async function news(){
 
-    let response= await fetch(" https://newsapi.org/v2/top-headlines?country=in&apiKey=65569989f8f448ce8cd938e8ee685e53")
+    let response= await fetch(" https://newsapi.org/v2/top-headlines?country=in&apiKey="enter your api key")
     let info=await response.json();
     console.log(info)
     displayNews(info.articles)
